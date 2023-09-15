@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screen1Activity">
+
+
+    <!--Top Time-->
+
+    <!--Top Wifi -->
+
+    <!--Spot it! Logo -->
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="285dp"
+        android:layout_height="217dp"
+        app:srcCompat="@drawable/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <!--**************************************************************************-->
+
+    <!--Bottom Layout-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:weightSum="4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <!-- Login -->
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_weight="0.5"
+            android:paddingLeft="30dp"
+            android:text="Login"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <!--............................................-->
+
+        <!-- Email -->
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:paddingLeft="20dp"
+            android:text="Email" />
+
+        <!-- Enter Email Field -->
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="362dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:background="#26000000"
+            android:hint="Enter email"
+            android:paddingLeft="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <!-- Email 2 -->
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0.1"
+
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:paddingLeft="20dp"
+            android:text="Password" />
+
+        <!-- Enter Email Field 2 -->
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="362dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:background="#26000000"
+            android:hint="Enter email"
+            android:paddingLeft="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <!--............................................-->
+
+        <!--Forget password-->
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="394dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.75"
+            android:text="Forgot your password?"
+            android:textAlignment="textEnd"
+            android:textColor="#FF5722"
+            android:textSize="20dp" />
+
+        <!--Login Button-->
+
+
+        <!--Sign UP-->
+        <Button
+            android:id="@+id/button"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+            android:background="#FF6F00"
+            android:text="Login"
+            android:textColor="#263238"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.6"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:paddingBottom="30dp"
+            android:gravity="center|bottom"
+            android:text="Sign Up" />
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

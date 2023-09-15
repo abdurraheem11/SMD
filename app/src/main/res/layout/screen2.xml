@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screen2A">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="100dp"
+            android:textColor="@color/black"
+            android:text="Forgot your password?" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0.1"
+
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:paddingLeft="20dp"
+            android:text="Password" />
+
+        <!-- Enter Email Field 2 -->
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="360dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:background="#26000000"
+            android:hint="Enter email"
+            android:paddingLeft="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <!--............................................-->
+
+        <!--Login Button-->
+        <Button
+            android:id="@+id/button"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.2"
+            android:background="#FF9422"
+            android:text="Reset password"
+            android:textColor="#424242"
+            android:textSize="18dp" />
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screen14Activity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="889dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:gravity="center|left"
+            android:orientation="horizontal"
+
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="32dp"
+                android:layout_height="92dp"
+                android:layout_marginLeft="20dp"
+
+                android:clickable="true"
+                app:srcCompat="@drawable/arrow" />
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Report"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view13"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#26000000" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="20dp"
+            android:text="Reason fo reporting"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <!-- Enter Email Field 2 -->
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="360dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="#26000000"
+            android:hint="Enter a reason here  "
+            android:paddingLeft="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="600dp"
+            android:background="#FF9422"
+            android:text="Submit Report"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+
+            />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screen6Activity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="889dp"
+        android:orientation="vertical"
+        android:id="@+id/parentLayout"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/black"
+            android:text="Find exactly what you need!" />
+
+        <!-- Enter Email Field 2 -->
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="370dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:background="#26000000"
+            android:hint="Search"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:text="Recent Searches"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:contentDescription="Recent Searches"/>
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Item Number One"
+            android:paddingLeft="15dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="18dp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Item Number Two"
+            android:paddingLeft="15dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="18dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Item Number One"
+            android:paddingLeft="15dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="18dp"
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:text="Recent Searches"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:contentDescription="Recent Searches"/>
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Item Number Two"
+            android:paddingLeft="15dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="18dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Item Number Two"
+            android:paddingLeft="15dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="18dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Item Number Two"
+            android:paddingLeft="15dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="18dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Item Number Two"
+            android:paddingLeft="15dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="18dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
